@@ -1,11 +1,12 @@
 %define name    eqonomize          
 %define version 0.6                
-%define release %mkrel 1           
+%define release %mkrel 2
  
 Name:           %name
 Version:        %version
 Release:        %release
 Source0:        http://ovh.dl.sourceforge.net/sourceforge/eqonomize/%name-%version.tar.gz
+Patch0:         eqonomize-0.6-fix-desktopfile-typo.patch
 Summary:        Personal finance program for KDE                                         
 License:        GPLv2+                                                                   
 Group:          Office                                                                   
@@ -42,7 +43,7 @@ the small household economy.
  
 %prep
 %setup -q -n %name-%version
- 
+%patch0 -p1 
 %build
 %cmake_kde4
 %make
