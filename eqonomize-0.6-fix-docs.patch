@@ -1,0 +1,18 @@
+--- eqonomize-0.6/doc/en/index.docbook.bero	2012-12-05 21:49:21.949644231 +0100
++++ eqonomize-0.6/doc/en/index.docbook	2012-12-05 21:49:49.326993174 +0100
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" ?>
+-<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.1.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
++<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.1.2-Based Variant V1.1//EN" "/usr/share/apps/ksgmltools2/customization/dtd/kdex.dtd" [
+   <!ENTITY eqonomize "<application>Eqonomize!</application>">
+   <!ENTITY kappname "&eqonomize;"><!-- Do *not* replace kappname-->
+   <!ENTITY % addindex "IGNORE">
+--- eqonomize-0.6/doc/fr/index.docbook.bero	2012-12-05 21:50:07.426223652 +0100
++++ eqonomize-0.6/doc/fr/index.docbook	2012-12-05 21:50:16.958344466 +0100
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" ?>
+-<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.1.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
++<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.1.2-Based Variant V1.1//EN" "/usr/share/apps/ksgmltools2/customization/dtd/kdex.dtd" [
+   <!ENTITY eqonomize "<application
+ >Eqonomize!</application
+ >">
