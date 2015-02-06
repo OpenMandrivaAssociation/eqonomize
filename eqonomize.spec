@@ -1,6 +1,6 @@
 %define name    eqonomize          
 %define version 0.6                
-%define release %mkrel 3
+%define release 4
  
 Name:           %name
 Version:        %version
