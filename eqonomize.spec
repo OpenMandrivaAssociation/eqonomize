@@ -33,7 +33,7 @@ the small household economy.
  
 %prep
 %setup -q -n %name-%version
-%apply_patches
+%autopatch -p1
 %build
 %qmake_qt5 PREFIX=%{buildroot}%{_prefix}
 %make
