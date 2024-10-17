@@ -7,7 +7,7 @@ Source0:	https://github.com/Eqonomize/eqonomize/releases/download/v1.2.0/%{name}
 Summary:        Personal finance program for KDE                                         
 License:        GPLv2+                                                                   
 Group:          Office                                                                   
-Url:            http://eqonomize.sourceforge.net/                                        
+Url:            https://eqonomize.sourceforge.net/                                        
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(Qt5)
 BuildRequires:	cmake(Qt5Gui)
