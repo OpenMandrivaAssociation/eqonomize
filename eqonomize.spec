@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 Name:           eqonomize
-Version:        1.5.6
+Version:        1.5.8
 Release:        1
 Source0:	https://github.com/Eqonomize/eqonomize/releases/download/v%{version}/%{name}-%{version}.tar.gz
 Summary:        Personal finance program for KDE                                         
@@ -9,12 +9,12 @@ License:        GPLv2+
 Group:          Office                                                                   
 Url:            https://eqonomize.github.io
 BuildRequires:	cmake(ECM)
-BuildRequires:	cmake(Qt5)
-BuildRequires:	cmake(Qt5Gui)
-BuildRequires:	cmake(Qt5Network)
-BuildRequires:	cmake(Qt5PrintSupport)
-BuildRequires:	cmake(Qt5Widgets)
-BuildRequires:	cmake(Qt5Charts)
+BuildRequires:	cmake(Qt6)
+BuildRequires:	cmake(Qt6Gui)
+BuildRequires:	cmake(Qt6Network)
+BuildRequires:	cmake(Qt6PrintSupport)
+BuildRequires:	cmake(Qt6Widgets)
+BuildRequires:	cmake(Qt6Charts)
  
 %description
 Eqonomize! is a personal accounting software, 
@@ -36,7 +36,7 @@ the small household economy.
 %autosetup -p1
 
 %build
-%qmake_qt5 PREFIX=%{buildroot}%{_prefix}
+qmake-qt6 PREFIX=%{buildroot}%{_prefix}
 %make_build
  
 %install
