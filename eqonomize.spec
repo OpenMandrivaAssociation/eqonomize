@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 Name:           eqonomize
-Version:        1.5.8
+Version:        1.5.9
 Release:        1
 Source0:	https://github.com/Eqonomize/eqonomize/releases/download/v%{version}/%{name}-%{version}.tar.gz
 Summary:        Personal finance program for KDE                                         
