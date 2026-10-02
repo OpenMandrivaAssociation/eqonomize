@@ -2,7 +2,7 @@
 
 Name:           eqonomize
 Version:        1.5.12
-Release:        1
+Release:        2
 Source0:	https://github.com/Eqonomize/eqonomize/releases/download/v%{version}/%{name}-%{version}.tar.gz
 Summary:        Personal finance program for KDE                                         
 License:        GPLv2+                                                                   
