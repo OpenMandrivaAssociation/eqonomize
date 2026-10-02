@@ -15,6 +15,7 @@ BuildRequires:	cmake(Qt6Network)
 BuildRequires:	cmake(Qt6PrintSupport)
 BuildRequires:	cmake(Qt6Widgets)
 BuildRequires:	cmake(Qt6Charts)
+BuildRequires:	make
  
 %description
 Eqonomize! is a personal accounting software, 
